@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css/reset.css">
+    <link rel="stylesheet" href="./styles.css/import.css">
+    <link rel="stylesheet" href="./styles.css/styles.css">
+    <link rel="shortcut icon" href="./resources/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./resources/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>AirPods</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav>
+                    <ul class="header__nav-list">
+                        <li>
+                            <a 
+                                class="header__link" 
+                                href="#models">
+                                модели
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                class="header__link" 
+                                href="#functions">
+                                функции
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                class="header__link" 
+                                href="#training">
+                                тренировки
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                class="header__link" 
+                                href="#socials">
+                                социальные сети
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="js-burger-btn burger-btn"></div>
+                <div class="js-burger burger">
+                    <div class="burger__content">
+                        <nav class="burger__nav">
+                            <ul class="burger__nav-list">
+                                <li>
+                                    <a 
+                                        class="burger__nav__link" 
+                                        href="#models">МОДЕЛИ
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        class="burger__nav__link" 
+                                        href="#functions">функции
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        class="burger__nav__link" 
+                                        href="#training">тренировки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        class="burger__nav__link" 
+                                        href="#socials">социальные сети
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="burger__contacts-wrapper js-burger__content">
+                            <ul class="burger__socials-list">
+                                <li>
+                                    <a 
+                                        class="burger__socials__link" 
+                                        href="https://instagram.com/nikitaa_rudenko_?igshid=NTc4MTIwNjQ2YQ==" target="_blank">Instagram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        class="burger__socials__link" 
+                                        href="https://www.youtube.com/channel/UCThmVEyGGDGlNyOKbJiA_Uw" target="_blank">YouTube
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        class="burger__socials__link" 
+                                        href="https://github.com/Nikitaa-Rudenko" target="_blank">Github
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        class="burger__socials__link" 
+                                        href="//web.telegram.org/k/#@nikitaa_rudenko" target="_blank">Telegram
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="intro">
+            <div class="container">
+                <h2 class="product__intro__title">Nothing Ear</h2>
+                <p class="product__intro__subtitle">Беспроводные наушники-вкладыши с активным шумоподавлением, которые подарят чистейший звук</p>
+                <picture>
+                    <source 
+                        class="product__intro__img__media"
+                        media="(max-width: 767px)" 
+                        srcset="./resources/product__intro__headphones__mobile.png"
+                        alt="черные наушники"
+                    >
+                    <img 
+                        class="product__intro__img"
+                        src="./resources/product__intro__headphones.png" 
+                        alt="черные наушники"
+                    >
+                </picture>
+            </div>
+        </section>
+        <section class="catalog" id="models">
+            <div class="container">
+                <ul class="catalog__list">
+                    <li class="catalog__item">
+                        <picture>
+                            <source 
+                                media="(max-width: 500px)" 
+                                srcset="./resources/ear-white__mobile.png"
+                            >
+                            <img 
+                                class="catalog__img" 
+                                src="./resources/ear-white.png" 
+                                alt="белые наушники"
+                            >
+                        </picture>
+                        <h2 class="catalog__title catalog__img__mini__white">Наушники Ear White</h2>
+                        <div class="catalog__btn-wrapper">
+                            <a class="catalog__btn btn-wrapper" href="#">КУПИТЬ</a>
+                        </div>
+                    </li>
+                    <li class="catalog__item">
+                        <picture>
+                            <source 
+                                media="(max-width: 500px)" 
+                                srcset="./resources/ear-black__mobile.png"
+                            >
+                            <img 
+                                class="catalog__img catalog__img__black" 
+                                src="./resources/ear-black.png" 
+                                alt="черные наушники"
+                            >
+                        </picture>
+                        <h2 class="catalog__title catalog__img__mini__black">Наушники Ear Black</h2>
+                        <div class="catalog__btn-wrapper">
+                            <a class="catalog__btn btn-wrapper" href="#">КУПИТЬ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="smartphone">
+            <div class="container">
+                <ul class="smartphone__content">
+                    <li class="smartphone__info__title__wrapper">
+                        <h2 class="smartphone__info__title">Ни что не отвлекает. Просто чистый инстинкт, сформированный как машина</h2>
+                    </li>
+                    <li class="smartphone__wrapper">
+                        <picture>
+                            <source 
+                                media="(max-width: 1199px)" 
+                                srcset="./resources/smartphone__pic__big.png"
+                            >
+                            <img 
+                                class="smartphone__pic" 
+                                src="./resources/smartphone__pic.png" 
+                                alt="айфон с чехлом в руках"
+                            >
+                        </picture>
+                        <h2 class="smartphone__title">Телефон Nothing</h2>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="customization" id="functions">
+            <ul class="customization__list">
+                <li>
+                    <h2 class="customization__title">Сделайте их вашими</h2>
+                </li>
+                <li>
+                    <p class="customization__subtitle">Настройте эквалайзеры, жесты, функцию «Найти наушники» и многое другое с помощью приложения ear (1), доступного для iOS и Android.</p>
+                </li>
+                <li>
+                    <p class="customization__subtitle">Мгновенное сопряжение с устройствами, совместимыми с Google Fast Pair. Просто откройте корпус, нажмите пару и наслаждайтесь</p>
+                </li>
+            </ul>
+        </section>
+        <section class="workouts">
+            <ul class="workouts__list">
+                <li>
+                    <h2 class="workouts__title" id="training">Ударные тренировки. Нет поту</h2>
+                </li>
+                <li>
+                    <p class="workouts__subtitle workouts__item-net">Каждый наушник имеет композитную сетчатую конструкцию для повышения защиты от пота и воды со степенью защиты ipx4.</p>
+                </li>
+                <li>
+                    <p class="workouts__subtitle workouts__item-pause">Автоматически приостанавливайте воспроизведение музыки или видео, сняв наушник. Когда вы будете готовы играть, просто вставьте его обратно.</p>
+                </li>
+                <li>
+                    <p class="workouts__subtitle workouts__item-power">Cконструированный кейс-зарядка заряжается по беспроводной сети и быстро заряжает ваши наушники.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="clear-voice">
+            <ul class="clear-voice__list">
+                <li class="clear-voice__title__wrapper"> 
+                    <h2 class="clear-voice__title">Наушники nothing ear (1) используют технологию clear voice и три микрофона высокой четкости</h2>
+                </li>
+                <li class="clear-voice__subtitle__wrapper">
+                    <h2 class="clear-voice__subtitle">Пока вы говорите, передовые алгоритмы анализируют миллион голосовых и звуковых комбинаций (даже при скорости ветра до 40 км/ч), чтобы изолировать и усиливать ваш голос с удивительной точностью.</h2>
+                    <div class="clear__btn-wrapper">
+                        <a class="btn-wrapper">купить</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="gallery__section">
+            <div class="container">
+                <h2 class="gallery__title">Чистый звук, точно настроенный</h2>
+                <div class="gallery__slides">
+                    <ul>
+                        <li class="gallery__slide gallery__slide_active">
+                            <div class="gallery__pic-title_wrapper">
+                                <p class="gallery__pic-title">Мы расчистили путь для превосходного звука, голоса и связи</p>
+                            </div>
+                            <img 
+                                class="gallery-picture" 
+                                src="./resources/ear__gallery.png" 
+                                alt="ear__gallery"
+                            >
+                        </li>
+
+                        <li class="gallery__slide">
+                            <div class="gallery__pic-title_wrapper">
+                                <p class="gallery__pic-title">Телефон Nothing Phone (1) это крупнейший запуск года в области смартфонов</p>
+                            </div>
+                            <img 
+                                class="gallery-picture" 
+                                src="./resources/phone__gallery.png" 
+                                alt="phone__gallery"
+                            >
+                        </li>
+
+                        <li class="gallery__slide">
+                            <div class="gallery__pic-title_wrapper">
+                                <p class="gallery__pic-title">Дизайн, выходящий за пределы поверхности.</p>
+                            </div>
+                            <img 
+                                class="gallery-picture" 
+                                src="./resources/flower__gallery.png" 
+                                alt="flower__gallery"
+                            >
+                        </li>
+
+                        <li class="gallery__slide">
+                            <div class="gallery__pic-title_wrapper">
+                                <p class="gallery__pic-title">И непоколебимая решимость уменьшить воздействие технологий на окружающую среду</p>
+                            </div>
+                            <img 
+                                class="gallery-picture" 
+                                src="./resources/parrot__gallery.png" 
+                                alt="parrot__gallery"
+                            >
+                        </li>
+                    </ul>
+                    <div class="gallery__controls-wrapper">
+                        <div class="gallery__controls">
+                            <div class="gallery__control-prev"></div>
+                            <div class="gallery__control-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="social-media" id="socials">
+            <div class="container">
+                <ul class="social-media__list">
+                    <li>
+                        <a 
+                            class="social-media__link" 
+                            href="https://instagram.com/nikitaa_rudenko_?igshid=NTc4MTIwNjQ2YQ==" target="_blank">Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            class="social-media__link" 
+                            href="https://www.youtube.com/channel/UCThmVEyGGDGlNyOKbJiA_Uw" target="_blank">YouTube
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            class="social-media__link" 
+                            href="https://github.com/Nikitaa-Rudenko" target="_blank">Github
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            class="social-media__link" 
+                            href="//web.telegram.org/k/#@nikitaa_rudenko" target="_blank">Telegram
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer__nav-list">
+                <li>
+                    <a 
+                        class="footer__link" 
+                        href="#models">
+                        модели
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        class="footer__link" 
+                        href="#functions">
+                        функции
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        class="footer__link" 
+                        href="#training">
+                        тренировки
+                    </a>
+                </li>
+                <li>
+                    <a 
+                        class="footer__link" 
+                        href="#socials">
+                        социальные сети
+                    </a>
+                </li>
+            </ul>
+            <div class="footer__decoration">
+                <div class="footer__decoration-wrapper">
+                    <h2 class="footer__info">2023</h2>
+                    <h2 class="footer__info">nothing</h2>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/burger.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+.clear-voice {
+    background-image: url(../resources/clear-voice__pic.png);
+    width: 100%;
+    height: 1040px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    margin-bottom: 150px;
+}
+
+.clear-voice__list {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.clear-voice__title__wrapper {
+    max-width: 1150px;
+}
+
+.clear-voice__title {
+    width: 100%;
+    font-size: 100px;
+    line-height: 74px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.clear-voice__subtitle__wrapper {
+    max-width: 942px;
+}
+
+.clear-voice__subtitle {
+    width: 100%;
+    font-size: 45px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.clear__btn-wrapper {
+    position: absolute;
+    right: 267px;
+    left: 268px;
+}
+
+@media (max-width: 1199px) {
+    .clear__btn-wrapper {
+        right: 55px;
+        left: 55px;
+    }
+
+    .clear-voice {
+        height: 1184px;
+    }
+
+    .clear-voice__list {
+        padding-top: 150px;
+        gap: 32px;
+    }
+
+    .clear-voice__title__wrapper {
+        max-width: 911px;
+    }
+    
+    .clear-voice__subtitle {
+        margin-bottom: 58px;
+    }
+
+    .clear-voice__subtitle__wrapper {
+        max-width: 842px;
+    }
+}
+
+@media (max-width: 840px) {
+
+    .clear-voice__title {
+        font-size: 90px;
+        line-height: 74px;
+    }
+
+    .clear-voice__subtitle {
+        font-size: 43px;
+        line-height: 40px;
+    }
+
+    .clear-voice__subtitle__wrapper {
+        max-width: 808px;
+    }
+}
+
+@media (max-width: 767px) {
+    .clear-voice {
+        height: 932px;
+        background-position: 25% 0%;
+        margin-bottom: 100px;
+    }
+
+    .clear-voice__list {
+        padding-top: 100px;
+        gap: 33px;
+    }
+
+    .clear-voice__title {
+        font-size: 45px;
+        line-height: 33px;
+    }
+
+    .clear-voice__subtitle {
+        font-size: 25px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
+    
+    .clear-voice__title__wrapper {
+        max-width: 341px;
+    }
+
+    .clear-voice__subtitle__wrapper {
+        max-width: 269px;
+    }
+
+    .clear__btn-wrapper {
+        right: 15px;
+        left: 15px;
+    }
+}

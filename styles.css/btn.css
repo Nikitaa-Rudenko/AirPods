@@ -1,0 +1,26 @@
+.btn-wrapper {
+    display: block;
+    font-size: 25px;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+    max-height: 110px;
+}
+
+.btn-wrapper:hover {
+    color: black;
+    background-color: #FFFFFF;
+    transition: all 0.2s linear;
+}
+
+@media (max-width: 767px) {
+    .btn-wrapper {
+        max-height: 75px;
+        line-height: 75px;
+    }
+}

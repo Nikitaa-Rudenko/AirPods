@@ -1,0 +1,109 @@
+.workouts {
+    margin-bottom: 150px;
+}
+
+.workouts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 154px;
+    align-items: center;
+}
+
+.workouts__title {
+    width: 676px;
+    font-size: 100px;
+    line-height: 74px;
+    text-align: center;
+    color: #FF25C2;
+}
+
+.workouts__subtitle {
+    width: 507px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.workouts__item-net::after {
+    content: "";
+    background-image: url(../resources/item-net.png);
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 0px;
+    right: 0px;
+    bottom: 145px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-color: #FF25C2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.workouts__item-pause::after {
+    content: "";
+    background-image: url(../resources/item-pause.png);
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 0px;
+    right: 0px;
+    bottom: 145px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-color: #FF25C2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.workouts__item-power::after {
+    content: "";
+    background-image: url(../resources/item-power.png);
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 0px;
+    right: 0px;
+    bottom: 115px;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-color: #FF25C2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    .workouts {
+        margin-bottom: 100px;
+    }
+
+    .workouts__list {
+        gap: 124px;
+    }
+
+    .workouts__title {
+        max-width: 344px;
+        font-size: 60px;
+        line-height: 44px;
+    }
+
+    .workouts__subtitle {
+        max-width: 319px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .workouts__item-net::after {
+        bottom: 95px;
+    }
+    
+    .workouts__item-pause::after {
+        bottom: 95px;
+    }
+    
+    .workouts__item-power::after {
+        bottom: 75px;
+    }
+}

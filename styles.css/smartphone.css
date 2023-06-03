@@ -1,0 +1,115 @@
+.smartphone {
+    margin-bottom: 150px;
+}
+
+.smartphone__content {
+    display: flex;
+    gap: 25px;
+    align-items: flex-end;
+}
+
+.smartphone__info__title {
+    width: 555px;
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.smartphone__pic {
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    width: 570px;
+    height: 644px;
+    object-fit: cover;
+}
+
+.smartphone__title {
+    width: 344px;
+    font-size: 45px;
+    line-height: 42px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    left: 35px;
+    top: 50px;
+}
+
+.smartphone__wrapper {
+    position: relative;
+}
+
+.smartphone__wrapper::after {
+    content: "";
+    background-image: url(../resources/smartphone__pic__mini.png);
+    position: absolute;
+    width: 180px;
+    height: 142px;
+    left: 35px;
+    bottom: 45px;
+    border-radius: 30px;
+}
+
+@media (max-width: 1199px) {
+    .smartphone {
+        margin-bottom: 150px;
+    }
+
+    .smartphone__info__title {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .smartphone__pic {
+        width: 695px;
+    }
+
+    .smartphone__content {
+        display: block;
+        height: 926px;
+    }
+
+    .smartphone__wrapper {
+        float: right;
+    }
+
+    .smartphone__info__title__wrapper {
+        max-width: 831px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .smartphone__content {
+        height: auto;
+    }
+    
+    .smartphone__title {
+        max-width: 200px;
+    }
+
+    .smartphone {
+        margin-bottom: 100px;
+    }
+
+    .smartphone__info__title {
+        width: 100%;
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 50px;
+    }
+
+    .smartphone__info__title__wrapper {
+        width: 350px;
+        max-height: 252px;
+    }
+
+    .smartphone__pic {
+        width: 100%;
+    }
+
+    .smartphone__wrapper {
+        float: none;
+    }
+}

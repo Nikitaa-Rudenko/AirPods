@@ -1,0 +1,118 @@
+.catalog {
+    margin-bottom: 75px;
+}
+.catalog__list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.catalog__title {
+    font-size: 60px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    width: 375px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.catalog__img__mini__white::after {
+    content: "";
+    background-image: url(../resources/ear-white__mini.png);
+    position: absolute;
+    width: 141px;
+    height: 142px;
+    left: 0px;
+    right: 0px;
+    top: 263px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.catalog__img__mini__black::after {
+    content: "";
+    background-image: url(../resources/ear-black__mini.png);
+    position: absolute;
+    width: 141px;
+    height: 142px;
+    left: 0px;
+    right: 0px;
+    top: 263px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+
+.catalog__img {
+    max-width: 1150px;
+    height: 644px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.catalog__img__black {
+    border: 1px solid #FFFFFF;
+}
+.catalog__img__mini {
+    position: absolute;
+    bottom: 191px;
+    left: 50px;
+}
+.catalog__item {
+    position: relative;
+}
+.catalog__btn {
+    width: 420px;
+}
+
+.catalog__btn-wrapper {
+    position: absolute;
+    bottom: 51px;
+    left: 50px;
+}
+
+ @media (max-width: 1199px) {
+    .catalog {
+        margin-bottom: 150px;
+    }
+
+    .catalog__img {
+        width: 100%;
+        object-position: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .catalog {
+        margin-bottom: 40px;
+    }
+
+    .catalog__img {
+        height: 550px;
+    }
+
+    .catalog__title {
+        top: 43px;
+        left: 14px;
+        font-size: 45px;
+        max-width: 225px;
+        line-height: 42px;
+    }
+
+    .catalog__btn {
+        width: 100%;
+    }
+    .catalog__img__mini__white::after,
+    .catalog__img__mini__black::after {
+        opacity: 0;
+    }
+    .catalog__btn-wrapper {
+        bottom: 38px;
+        left: 14px;
+        right: 15px;
+    }
+
+    .catalog__list {
+        gap: 55px;
+    }
+}
